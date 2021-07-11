@@ -11,4 +11,5 @@ it('load lib', async () => {
   var s3 = new AWS.S3();
   var data = await s3.listBuckets().promise();
   console.log(data.Buckets);
+  
 });
